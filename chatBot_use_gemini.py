@@ -1,7 +1,7 @@
 from google import genai
 
 # The client gets the API key from the environment variable `GEMINI_API_KEY`.
-client = genai.Client(api_key="AIzaSyDTNBYoHPakg9wF0nnx1dlFJpNXPCPx3o8")
+client = genai.Client(api_key="GEMINI_API_KEY")
 
 while True:
     user = input("You : ")
